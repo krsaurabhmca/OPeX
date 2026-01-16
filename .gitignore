@@ -1,0 +1,49 @@
+# Environment Configuration
+.env
+
+# Uploads
+upload/*
+!upload/.htaccess
+
+# Backups
+backup/*.sql
+backup/*.gz
+backup/*.zip
+
+# Logs
+system/logs/*.log
+system/logs/*.txt
+!system/logs/.htaccess
+
+# Composer
+vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Database
+*.sql
+*.sqlite
+!system/opex_db.sql
+
+# Node modules (if using npm)
+node_modules/
+package-lock.json
+
+# Build files
+dist/
+build/
